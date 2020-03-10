@@ -1,6 +1,7 @@
 <?php
 session_start();
 if($_SESSION['username'] == 'username') {
+// :DD:
  include "connect.php";
  print("<html>");
  $conn = connect_db();
